@@ -8,7 +8,7 @@ const Nav = ({menu, show}) => {
         <header className= {styles.header}>
         <nav className= {styles.nav}>
           <Link to = "/" className= {styles.navLogo}>
-           <h1>Placeholder</h1>
+           <h1>Echo Software</h1>
           </Link>
           <div className= {styles.navMenu}>
 
@@ -17,13 +17,13 @@ const Nav = ({menu, show}) => {
           <Link to = "/"  className= {styles.navLinks2}>Home</Link>
           </li>
           <li>
-          <Link to = "/"  className= {styles.navLinks2}>About Us</Link>
+          <Link to = "/About"  className= {styles.navLinks2}>About Us</Link>
           </li>
           <li>
-          <Link to = "/"  className= {styles.navLinks2}>News</Link>
+          <Link to = "/News"  className= {styles.navLinks2}>News</Link>
           </li>
           <li>
-          <Link to = "/"  className= {styles.navLinks2}>Services</Link>
+          <Link to = "/Contact"  className= {styles.navLinks2}>Contact Us</Link>
           </li>
           <li>
           <Link to = "/SignUp"  className= {styles.navLink_cta}>Sign Up</Link>
